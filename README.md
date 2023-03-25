@@ -106,6 +106,7 @@ Looking for [Zero-shot/Few-shot in Dense Retrieval Models](https://github.com/ca
 - [Practical Relative Order Attack in Deep Ranking](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Practical_Relative_Order_Attack_in_Deep_Ranking_ICCV_2021_paper.pdf) *Mo Zhou et al.* ICCV 2021.
 - [QAIR: Practical Query-efficient Black-Box Attacks for Image Retrieval](http://openaccess.thecvf.com/content/CVPR2021/papers/Li_QAIR_Practical_Query-Efficient_Black-Box_Attacks_for_Image_Retrieval_CVPR_2021_paper.pdf) *Xiaodan Li et al.* CVPR 2021.(**Query-based Attack against Image Retrieval**)
 - [ARRA: Absolute-Relative Ranking Attack against Image Retrieval](https://dl.acm.org/doi/abs/10.1145/3503161.3548138) *Siyuan Li et al.* MM 2022.(**ARRA**)
+- [RetrievalGuard: Provably Robust 1-Nearest Neighbor Image Retrieval](https://proceedings.mlr.press/v162/wu22o/wu22o.pdf) *Yihan Wu et al.* ICML 2022.(** RetrievalGuard**)
 
 ## Other Resources
 
