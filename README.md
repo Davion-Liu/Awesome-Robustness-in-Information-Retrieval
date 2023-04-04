@@ -101,7 +101,7 @@ Looking for [Zero-shot/Few-shot in Dense Retrieval Models](https://github.com/ca
 
 - [Targeted Mismatch Adversarial Attack: Query with a Flower to Retrieve the Tower](http://openaccess.thecvf.com/content_ICCV_2019/papers/Tolias_Targeted_Mismatch_Adversarial_Attack_Query_With_a_Flower_to_Retrieve_ICCV_2019_paper.pdf) *Giorgos Tolias et al.* ICCV 2019.(**TMA**)
 - [Universal Perturbation Attack Against Image Retrieval](https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Universal_Perturbation_Attack_Against_Image_Retrieval_ICCV_2019_paper.pdf) *Jie Li et al.* ICCV 2019.(**UAP**)
-- [Adversarial Ranking Attack and Defense](https://arxiv.org/pdf/2002.11293) *Mo Zhou et al.*ECCV 2020.(**Candidate Attack and Query Attack**)
+- [Adversarial Ranking Attack and Defense](https://arxiv.org/pdf/2002.11293) *Mo Zhou et al.* ECCV 2020.(**Candidate Attack and Query Attack**)
 - [You See What I Want You to See: Exploring Targeted Black-Box Transferability Attack for Hash-based Image Retrieval Systems](https://openaccess.thecvf.com/content/CVPR2021/papers/Xiao_You_See_What_I_Want_You_To_See_Exploring_Targeted_CVPR_2021_paper.pdf) *Yanru Xiao et al.* CVPR 2021.(**Hash-based: Noise-induced Adversarial Generation**)
 - [Practical Relative Order Attack in Deep Ranking](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhou_Practical_Relative_Order_Attack_in_Deep_Ranking_ICCV_2021_paper.pdf) *Mo Zhou et al.* ICCV 2021.
 - [QAIR: Practical Query-efficient Black-Box Attacks for Image Retrieval](http://openaccess.thecvf.com/content/CVPR2021/papers/Li_QAIR_Practical_Query-Efficient_Black-Box_Attacks_for_Image_Retrieval_CVPR_2021_paper.pdf) *Xiaodan Li et al.* CVPR 2021.(**Query-based Attack against Image Retrieval**)
