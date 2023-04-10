@@ -59,6 +59,7 @@ We thank all the great contributors very much.
 - [IRGAN: A Minimax Game for Unifying Generative and Discriminative Information Retrieval Models](https://arxiv.org/pdf/1705.10513) *Wang, Jun, et al.* SIGIR 2017.(**IRGAN**)
 - [Adversarial Sampling and Training for Semi-Supervised Information Retrieval](https://arxiv.org/pdf/1811.04155) *Park, Dae Hoon, Yi Chang* WWW 2019.(**AdvIR**)
 - [Adversarial Retriever-Ranker for dense text retrieval](https://arxiv.org/pdf/2110.03611) *Zhang, Hang, et al.* ICLR 2022.(**AR2**)
+- [Towards Robust Ranker for Text Retrieval](https://arxiv.org/pdf/2206.08063.pdf) *Yucheng, Zhou, et al.* Arxiv 2022.(**(R2ANKER**)
 - [Dealing with textual noise for robust and effective BERT re-ranking](https://www.sciencedirect.com/science/article/pii/S0306457322002369) *Chen, Xuanang, et al.* IPM 2023.
 - [A Study on FGSM Adversarial Training for Neural Retrieval](https://arxiv.org/pdf/2301.10576) *Lupart, Simon, Stéphane Clinchant* ECIR 2023.
 
