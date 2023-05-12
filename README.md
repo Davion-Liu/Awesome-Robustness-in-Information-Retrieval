@@ -51,7 +51,7 @@ We thank all the great contributors very much.
 - [Bert rankers are brittle: A study using adversarial document perturbations.](https://arxiv.org/pdf/2206.11724) *Yumeng Wang et.al.* ICTIR 2022.(**White-box**)
 - [PRADA: Practical Black-Box Adversarial Attacks against Neural Ranking Models.](https://arxiv.org/pdf/2204.01321) *Chen Wu et.al.* TOIS 2022.(**Black-box**)
 - [Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models.](https://arxiv.org/pdf/2209.06506.pdf) *Jiawei Liu et.al.* CCS 2022.(**Black-box**)
-- [Topic-oriented Adversarial Attacks against Black-box Neural Ranking Models.](https://arxiv.org/pdf/2304.14867.pdf) *Yu-An Liu et.al.* SIGIR 2023.(**Black-box**)
+- [Topic-oriented Adversarial Attacks against Black-box Neural Ranking Models.](https://arxiv.org/pdf/2304.14867.pdf) *Yu-An Liu et.al.* SIGIR 2023.(**Black-box, TARA task**)
 - [Towards Imperceptible Document Manipulations against Neural Ranking Models.](https://arxiv.org/pdf/2305.01860.pdf) *Xuanang Chen et.al.* ACL 2023 findings.(**Black-box**)
 
 ## Defense
