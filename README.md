@@ -49,10 +49,10 @@ We thank all the great contributors very much.
 - [One word at a time: adversarial attacks on retrieval models.](https://arxiv.org/pdf/2008.02197) *Raval, Nisarg, and Manisha Verma* Arxiv 2020.(**White-box**)
 - [Adversarial Semantic Collisions.](https://arxiv.org/pdf/2011.04743) *Congzheng Song et.al.* EMNLP 2020.(**White-box**)
 - [Bert rankers are brittle: A study using adversarial document perturbations.](https://arxiv.org/pdf/2206.11724) *Yumeng Wang et.al.* ICTIR 2022.(**White-box**)
-- [PRADA: Practical Black-Box Adversarial Attacks against Neural Ranking Models.](https://arxiv.org/pdf/2204.01321) *Chen Wu et.al.* TOIS 2022.(**Black-box**)
-- [Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models.](https://arxiv.org/pdf/2209.06506.pdf) *Jiawei Liu et.al.* CCS 2022.(**Black-box**)
+- [PRADA: Practical Black-Box Adversarial Attacks against Neural Ranking Models.](https://arxiv.org/pdf/2204.01321) *Chen Wu et.al.* TOIS 2022.(**Black-box, Word substitution**)
+- [Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models.](https://arxiv.org/pdf/2209.06506.pdf) *Jiawei Liu et.al.* CCS 2022.(**Black-box, Trigger**)
 - [Topic-oriented Adversarial Attacks against Black-box Neural Ranking Models.](https://arxiv.org/pdf/2304.14867.pdf) *Yu-An Liu et.al.* SIGIR 2023.(**Black-box, TARA task**)
-- [Towards Imperceptible Document Manipulations against Neural Ranking Models.](https://arxiv.org/pdf/2305.01860.pdf) *Xuanang Chen et.al.* ACL 2023 findings.(**Black-box**)
+- [Towards Imperceptible Document Manipulations against Neural Ranking Models.](https://arxiv.org/pdf/2305.01860.pdf) *Xuanang Chen et.al.* ACL 2023 findings.(**Black-box, Prompt**)
 
 ## Defense
 
