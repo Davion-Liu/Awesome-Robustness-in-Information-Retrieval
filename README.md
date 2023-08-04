@@ -18,8 +18,9 @@ We thank all the great contributors very much.
 	* [White-hat SEO](#white-hat-seo)        
 	* [Neural Methods for IR Attack](#neural-methods-for-ir-attack) 
 - [Defense](#defense)
-	* [Adversarial Training](#adversarial-training)  
-	* [Certified Robustness](#certified-robustness) 
+	* [Adversarial Training (improving effectiveness)](#adversarial-training)  
+	* [Certified Robustness](#certified-robustness)
+	* [Detection](#detection) 
 	* [Out-of-distribution in Dense Retrieval](#out-of-distribution-in-dense-retrieval)       
 	* [Out-of-distribution in NRM](#out-of-distribution-in-nrm) 
 	* [Query Variations](#query-variations) 
@@ -53,7 +54,7 @@ We thank all the great contributors very much.
 
 ## Defense
 
-### Adversarial Training
+### Adversarial Training (improving effectiveness)
 
 - [IRGAN: A Minimax Game for Unifying Generative and Discriminative Information Retrieval Models](https://arxiv.org/pdf/1705.10513) *Wang, Jun, et al.* SIGIR 2017.(**IRGAN**)
 - [Adversarial Sampling and Training for Semi-Supervised Information Retrieval](https://arxiv.org/pdf/1811.04155) *Park, Dae Hoon, Yi Chang* WWW 2019.(**AdvIR**)
@@ -65,6 +66,10 @@ We thank all the great contributors very much.
 ### Certified Robustness
 
 - [Certified Robustness to Word Substitution Ranking Attack for Neural Ranking Models](https://arxiv.org/pdf/2209.06691.pdf) *Chen Wu et.al.* CIKM 2022
+
+### Detection
+
+- [Defense of Adversarial Ranking Attack in Text Retrieval: Benchmark and Baseline via Detection](https://arxiv.org/pdf/2307.16816.pdf) *Xuanang Chen et.al.* Arxiv 2023
 
 ### Out-of-distribution in Dense Retrieval
 
