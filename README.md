@@ -84,13 +84,12 @@ Looking for [Zero-shot/Few-shot in Dense Retrieval Models](https://github.com/ca
 
 ### Query Variations
 
-
 - [Dealing with Typos for BERT-based Passage Retrieval and Ranking](https://arxiv.org/pdf/2108.12139) *Shengyao Zhuang et al.* EMNLP 2021.(**DRTA**)
 - [Towards Robust Dense Retrieval via Local Ranking Alignment](https://www.ijcai.org/proceedings/2022/0275.pdf) *Xuanang Chen et al.* IJCAI 2022.(**RoDR**)
 - [Evaluating the Robustness of Retrieval Pipelines with Query Variation Generators](https://arxiv.org/pdf/2111.13057) *Penha Gustavo et al.* ECIR 2022.
 - [CharacterBERT and Self-Teaching for Improving the Robustness of Dense Retrievers on Queries with Typos](https://arxiv.org/pdf/2204.00716) *Shengyao Zhuang et al.* SIGIR 2022.(**CBST**)
 - [Analysing the Robustness of Dual Encoders for Dense Retrieval Against Misspellings](https://arxiv.org/pdf/2205.02303) *Sidiropoulos Georgios et al.* SIGIR 2022.(**DACL**)
-
+- [MIRS: [MASK] Insertion Based Retrieval Stabilizer for Query Variations](https://link.springer.com/chapter/10.1007/978-3-031-39847-6_31) *Junping Liu et al.* DEXA 2023.(**MIRS**)
 
 ## Benchmark and Evaluation
 
