@@ -20,7 +20,8 @@ We thank all the great contributors very much.
 - [Defense](#defense)
 	* [Adversarial Training (improving effectiveness)](#adversarial-training)  
 	* [Certified Robustness](#certified-robustness)
-	* [Detection](#detection) 
+	* [Detection](#detection)
+- [Out-of-distribution](#out-of-distribution)
 	* [Out-of-distribution in Dense Retrieval](#out-of-distribution-in-dense-retrieval)       
 	* [Out-of-distribution in NRM](#out-of-distribution-in-nrm) 
 	* [Query Variations](#query-variations) 
@@ -70,6 +71,8 @@ We thank all the great contributors very much.
 ### Detection
 
 - [Defense of Adversarial Ranking Attack in Text Retrieval: Benchmark and Baseline via Detection](https://arxiv.org/pdf/2307.16816.pdf) *Xuanang Chen et.al.* Arxiv 2023
+
+## Out-of-distribution
 
 ### Out-of-distribution in Dense Retrieval
 
