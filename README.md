@@ -51,6 +51,7 @@ We thank all the great contributors very much.
 - [Order-Disorder: Imitation Adversarial Attacks for Black-box Neural Ranking Models.](https://arxiv.org/pdf/2209.06506.pdf) *Jiawei Liu et.al.* CCS 2022.(**Black-box, Trigger**)
 - [Topic-oriented Adversarial Attacks against Black-box Neural Ranking Models.](https://arxiv.org/pdf/2304.14867.pdf) *Yu-An Liu et.al.* SIGIR 2023.(**Black-box, TARA task**)
 - [Towards Imperceptible Document Manipulations against Neural Ranking Models.](https://arxiv.org/pdf/2305.01860.pdf) *Xuanang Chen et.al.* ACL 2023 findings.(**Black-box, Prompt**)
+- [Black-box Adversarial Attacks against Dense Retrieval Models: A Multi-view Contrastive Learning Method](https://dl.acm.org/doi/pdf/10.1145/3583780.3614793) *Yu-An Liu et.al.* CIKM 2023.(**Black-box, Dense Retrieval Attack**)
 - [Boosting Big Brother: Attacking Search Engines with Encodings.](https://arxiv.org/pdf/2304.14031.pdf) *Nicholas Boucher et.al.* RAID 2023.(**Encoding attack**)
 
 ## Defense
