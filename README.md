@@ -37,7 +37,7 @@ We thank all the great contributors very much.
 - [Web Spam Taxonomy.](http://ilpubs.stanford.edu:8090/771/1/2005-9.pdf) *Zoltan Gyongyi  et.al.* AIRWeb 2005.(**Web Spamming**)
 - [International Workshop on Adversarial Information Retrieval on the Web.](http://www.ra.ethz.ch/cdstore/www2008/www2008.org/papers/pdf/p1267-castilloA.pdf)  AIRWeb 2005-2009.
 - [Adversarial web search.](https://www.nowpublishers.com/article/DownloadSummary/INR-021) *Castillo, Carlos, and Brian D. Davison* FnTIR 2011.
-- [MAWSEO: Adversarial Wiki Search Poisoning for Illicit Online Promotion.](https://arxiv.org/pdf/2304.11300.pdf) *Zilong Lin et.al.* S&P 2024.
+- [MAWSEO: Adversarial Wiki Search Poisoning for Illicit Online Promotion.](https://arxiv.org/pdf/2304.11300.pdf) *Zilong Lin et.al.* S&P 2024. (***Adversarial Revisions***)
 
 ### White-hat SEO
 
