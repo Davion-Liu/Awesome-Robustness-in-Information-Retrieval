@@ -97,20 +97,20 @@ Looking for [Zero-shot/Few-shot in Dense Retrieval Models](https://github.com/ca
 - [CharacterBERT and Self-Teaching for Improving the Robustness of Dense Retrievers on Queries with Typos](https://arxiv.org/pdf/2204.00716) *Shengyao Zhuang et al.* SIGIR 2022.(**CBST**)
 - [Analysing the Robustness of Dual Encoders for Dense Retrieval Against Misspellings](https://arxiv.org/pdf/2205.02303) *Sidiropoulos Georgios et al.* SIGIR 2022.(**DACL**)
 - [MIRS: [MASK] Insertion Based Retrieval Stabilizer for Query Variations](https://link.springer.com/chapter/10.1007/978-3-031-39847-6_31) *Junping Liu et al.* DEXA 2023.(**MIRS**)
-- [Typos-aware bottlenecked pre-training for robust dense retrieval](https://arxiv.org/pdf/2304.08138) *Shengyao Zhuang et al.*SIGIR-AP 2023(**ToRoDer**)
+- [Typos-aware bottlenecked pre-training for robust dense retrieval](https://arxiv.org/pdf/2304.08138) *Shengyao Zhuang et al.* SIGIR-AP 2023(**ToRoDer**)
 - [Contrastive fine-tuning improves robustness for neural rankers](https://arxiv.org/abs/2105.12932) *Xiaofei Ma et al.* ACL-IJCNLP 2021.
-- [Improving the Robustness of Dense Retrievers Against Typos via Multi-Positive Contrastive Learning](https://arxiv.org/pdf/2403.10939) *Georgios Sidiropoulos et al.*ECIR 2024.
-- [Noise-robust dense retrieval via contrastive alignment post training](https://arxiv.org/abs/2304.03401) *Daniel Campos et al.*Arxiv 2023.(**CAPOT**)
-- [Towards Robust Neural Rankers with Large Language Model: A Contrastive Training Approach](https://www.mdpi.com/2076-3417/13/18/10148) *Ziyang Pan et al.*Applied Sciences 2023.
-- [Typo-robust representation learning for dense retrieval](https://arxiv.org/abs/2306.10348) *Panuthep Tasawong et al.*ACL 2023.(**DST**)
+- [Improving the Robustness of Dense Retrievers Against Typos via Multi-Positive Contrastive Learning](https://arxiv.org/pdf/2403.10939) *Georgios Sidiropoulos et al.* ECIR 2024.
+- [Noise-robust dense retrieval via contrastive alignment post training](https://arxiv.org/abs/2304.03401) *Daniel Campos et al.* Arxiv 2023.(**CAPOT**)
+- [Towards Robust Neural Rankers with Large Language Model: A Contrastive Training Approach](https://www.mdpi.com/2076-3417/13/18/10148) *Ziyang Pan et al.* Applied Sciences 2023.
+- [Typo-robust representation learning for dense retrieval](https://arxiv.org/abs/2306.10348) *Panuthep Tasawong et al.* ACL 2023.(**DST**)
 
 ### Unseen Query Type
 
-- [Learning to Jointly Transform and Rank Difficult Queries](https://link.springer.com/chapter/10.1007/978-3-031-56066-8_5) *Amin Bigdeli et al.*ECIR 2024.
-- [Cross domain regularization for neural ranking models using adversarial learning](https://dl.acm.org/doi/abs/10.1145/3209978.3210141) *Daniel Cohen et al.*SIGIR 2018.
-- [Ms-shift: An analysis of ms marco distribution shifts on neural retrieval](https://link.springer.com/chapter/10.1007/978-3-031-28244-7_40) *Simon Lupart at al.*ECIR 2023.(**MS-Shift**)
+- [Learning to Jointly Transform and Rank Difficult Queries](https://link.springer.com/chapter/10.1007/978-3-031-56066-8_5) *Amin Bigdeli et al.* ECIR 2024.
+- [Cross domain regularization for neural ranking models using adversarial learning](https://dl.acm.org/doi/abs/10.1145/3209978.3210141) *Daniel Cohen et al.* SIGIR 2018.
+- [Ms-shift: An analysis of ms marco distribution shifts on neural retrieval](https://link.springer.com/chapter/10.1007/978-3-031-28244-7_40) *Simon Lupart at al.* ECIR 2023.(**MS-Shift**)
 - [Contrastive fine-tuning improves robustness for neural rankers](https://arxiv.org/abs/2105.12932) *Xiaofei Ma et al.* ACL-IJCNLP 2021.
-- [Simple entity-centric questions challenge dense retrievers](https://arxiv.org/abs/2109.08535) *Christopher Sciavolino et al.*EMNLP 2021.
+- [Simple entity-centric questions challenge dense retrievers](https://arxiv.org/abs/2109.08535) *Christopher Sciavolino et al.* EMNLP 2021.
 
 ## Benchmark and Evaluation
 
