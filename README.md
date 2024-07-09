@@ -22,8 +22,12 @@ We thank all the great contributors very much.
 	* [Certified Robustness](#certified-robustness)
 	* [Detection](#detection)
 - [Out-of-distribution](#out-of-distribution)
-	* [Out-of-distribution in Dense Retrieval](#out-of-distribution-in-dense-retrieval)       
-	* [Out-of-distribution in NRM](#out-of-distribution-in-nrm) 
+	* [Data Augmentation](#data-augmentation)
+	* [Domain Modeling](#domain-modeling)
+	* [Architectural Modifications](#architectural-modifications)
+	* [Scaling up the Model Capacity](#scaling-up-the-model-capacity)
+	* [Continual Learning for Generative Retrieval](#continual-learning-for-generative-retrieval)
+	* [Continual Learning for Dense Retrieval](#continual-learning-for-dense-retrieval)
 	* [Query Variations](#query-variations)
 	* [Unseen Query Type](#unseen-query-type)
 - [Benchmark and Evaluation](#benchmark-and-evaluation)
@@ -78,16 +82,64 @@ We thank all the great contributors very much.
 
 ## Out-of-distribution
 
-### Out-of-distribution in Dense Retrieval
+### Data Augmentation
 
-Looking for [Zero-shot/Few-shot in Dense Retrieval Models](https://github.com/caiyinqiong/Semantic-Retrieval-Models#dense-retrieval-methods) collected by *Yinqiong Cai*.
+* [Data augmentation for sample efficient and robust document ranking](https://dl.acm.org/doi/abs/10.1145/3634911) *Abhijit Anand et al.* TOIS 2023.
+* [Data augmentation and transfer learning for brain tumor detection in magnetic resonance imaging](https://ieeexplore.ieee.org/abstract/document/9720964/)  *A. Anaya-Isaza et al.* IEEE Access 2022.
+* [InPars: Data Augmentation for Information Retrieval using Large Language Models](https://arxiv.org/pdf/2202.05144.pdf) *Bonifacio et al.* Arxiv 2022.
+* [HypeR: Multitask Hyper-Prompted Training Enables Large-Scale Retrieval Generalization](https://openreview.net/pdf?id=kUf4BcWXGJr) *Cai et al.* ICLR 2023.
+* [DUQGen: Effective Unsupervised Domain Adaptation of Neural Rankers by Diversifying Synthetic Query Generation](https://arxiv.org/abs/2404.02489) *Ramraj Chandradevan et al.* Arxiv 2024.
+* [Cross-domain augmentation networks for click-through rate prediction](https://arxiv.org/abs/2305.03953) *Xu Chen et al.* Arxiv 2023.(**CDAnet**)
+* [Promptagator: Few-shot dense retrieval from 8 examples](https://arxiv.org/abs/2209.11755) *Zhuyun Dai et al.* Arxiv 2022.(**PROMPTAGATOR**)
+* [Augmenting zero-shot dense retrievers with plug-in mixture-of-memories](https://arxiv.org/abs/2302.03754) *Suyu Ge et al.* EMNLP 2023.(**MoMA**)
+* [Unsupervised dense information retrieval with contrastive learning](https://arxiv.org/abs/2112.09118) *Gautier Izacard et al.* Arxiv 2021. 
+* [InRanker: Distilled Rankers for Zero-shot Information Retrieval](https://arxiv.org/abs/2401.06910) *Thiago Laitz et al.* Arxiv 2024. (**InRanker**)
+* [Domain Adaptation for Dense Retrieval and Conversational Dense Retrieval through Self-Supervision by Meticulous Pseudo-Relevance Labeling](https://arxiv.org/abs/2403.08970) *Minghan Li and Eric Gaussier.* LREC-COLING 2024.(**DoDress**) 
+* [Embedding-based zero-shot retrieval through query generation](https://arxiv.org/abs/2009.10270) *Davis Liang et al.* Arxiv 2020. 
+* [Challenges in generalization in open domain question answering](https://arxiv.org/abs/2109.01156) *Linqing Liu et al.* NAACL 2022. 
+* [Zero-shot neural passage retrieval via domain-targeted synthetic question generation ](https://arxiv.org/abs/2004.14503) *Ji Ma et al.* EACL 2021.
+* [Text and code embeddings by contrastive pre-training](https://arxiv.org/abs/2201.10005) *Arvind Neelakantan et al.* Arxiv 2022.
+* [Data augmentation for neural machine translation using generative language model](https://arxiv.org/abs/2307.16833) *Seokjin Oh et al.* Arxiv 2023.
+* [Learning to retrieve passages without supervision](https://arxiv.org/abs/2112.07708) *Ori Ram et al.* NAACL 2022.(**Spider**)
+* [Towards robust neural retrieval models with synthetic pre-training](https://arxiv.org/abs/2104.07800) *Revanth Gangi Reddy et al.* Arxiv 2021.
+* [Questions are all you need to train a dense passage retriever](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00564/116466) *Devendra Singh Sachan et al.* TACL. (**ART**)
+* [Beir: A heterogenous benchmark for zero-shot evaluation of information retrieval models](https://arxiv.org/abs/2104.08663) *Nandan Thakur et al.* NeurIPS 2021. (**BEIR**)
+* [GPL: Generative pseudo labeling for unsupervised domain adaptation of dense retrieval](https://arxiv.org/abs/2112.07577) *Kexin Wang et al.* NAACL 2022. (**GPL**)
+* [Coco-dr: Combating distribution shifts in zero-shot dense retrieval with contrastive and distributionally robust learning ](https://arxiv.org/abs/2210.15212) Arxiv 2022. (**Coco-dr**)
 
-### Out-of-distribution in NRM
+### Domain Modeling
 
-- [Cross Domain Regularization for Neural Ranking Models using Adversarial Learning](https://dl.acm.org/doi/pdf/10.1145/3209978.3210141) *Cohen, Daniel, et al.* SIGIR 2018.
-- [Few-Shot Text Ranking with Meta Adapted Synthetic Weak Supervision](https://arxiv.org/pdf/2012.14862) *Si Sun et al.* ACL 2021.(**MetaAdaptRank**)
-- [Contrastive Fine-tuning Improves Robustness for Neural Rankers](https://arxiv.org/pdf/2105.12932) *Xiaofei Ma et al.* ACL 2021.
-- [Learning List-Level Domain-Invariant Representations for Ranking](https://arxiv.org/pdf/2212.10764) *Ruicheng Xian et al.* Arxiv 2022.(**ListDA**)
+* [Improving Retrieval in Theme-specific Applications using a Corpus Topical Taxonomy](https://dl.acm.org/doi/abs/10.1145/3589334.3645512) *SeongKu Kang et al.* Arxiv 2024.(**ToTER**)
+* [Learning list-level domain-invariant representations for ranking](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cc473bb3ec4176a5e640c3a6b5fb5239-Abstract-Conference.html) *Ruicheng Xian et al.* NeurIPS 2023.
+* [Zero-shot dense retrieval with momentum adversarial domain invariant representations](https://arxiv.org/abs/2110.07581) *Ji Xin et al.* ACL 2022. (**MoDIR**)
+* [BERM: Training the balanced and extractable representation for matching to improve generalization ability of dense retrieval](https://arxiv.org/abs/2305.11052) *Shicheng Xu et al.* ACL 2023. (**BERM**)
+* [Coco-dr: Combating distribution shifts in zero-shot dense retrieval with contrastive and distributionally robust learning ](https://arxiv.org/abs/2210.15212) Arxiv 2022. (**Coco-dr**)
+* [Disentangled modeling of domain and relevance for adaptable dense retrieval](https://arxiv.org/abs/2208.05753) *Jingtao Zhan et al.* (**DDR**)
+
+### Architectural Modifications
+
+* [Out-of-domain semantics to the rescue! zero-shot hybrid retrieval models](https://link.springer.com/chapter/10.1007/978-3-030-99736-6_7) *Tao Chen et al.* ECIR 2022.
+* [From distillation to hard negative sampling: Making sparse neural ir models more effective](https://dl.acm.org/doi/abs/10.1145/3477495.3531857) *Thibault Formal et al.* SIGIR 2022. 
+* [Zero-shot retrieval with search agents and hybrid environments](https://arxiv.org/abs/2209.15469) *Michelle Chen Huebscher et al.* Arxiv 2022. 
+* [DESIRE-ME: Domain-Enhanced Supervised Information Retrieval Using Mixture-of-Experts](https://link.springer.com/chapter/10.1007/978-3-031-56060-6_8) *Pranav Kasela et al.* ECIR 2024. (**DESIRE-ME**)
+* [Back to Basics: A Simple Recipe for Improving Out-of-Domain Retrieval in Dense Encoders](https://arxiv.org/abs/2311.09765) *Hyunji Lee et al.* Arxiv 2023. 
+
+### Scaling up the Model Capacity
+
+* [Ernie-search: Bridging cross-encoder with dual-encoder via self on-the-fly distillation for dense passage retrieval](https://arxiv.org/abs/2205.09153) *Yuxiang Lu et al.* Arxiv 2022. 
+* [Large dual encoders are generalizable retrievers](https://arxiv.org/abs/2112.07899) *Jianmo Ni et al.* EMNLP 2022. 
+
+### Continual Learning for Generative Retrieval
+
+* [Continual learning for generative retrieval over dynamic corpora](https://dl.acm.org/doi/abs/10.1145/3583780.3614821) *Jiangui Chen et al.* CIKM 2023. (**CLEVER**)
+* [Corpusbrain++: A continual generative pre-training framework for knowledge-intensive language tasks](https://arxiv.org/abs/2402.16767) *Jiafeng Guo et al.* Arxiv 2024. (**CorpusBrain++**)
+* [Incdsi: incrementally updatable document retrieval](https://proceedings.mlr.press/v202/kishore23a.html) *Varsha Kishore el al.* PMLR 2023. (**IncDSI**)
+* [DSI++: Updating transformer memory with new documents](https://arxiv.org/abs/2212.09744) *Sanket Mehta et al.* EMNLP 2023. (**DSI++**)
+* [Continually Updating Generative Retrieval on Dynamic Corpora](https://www.researchgate.net/publication/371163230_Continually_Updating_Generative_Retrieval_on_Dynamic_Corpora/fulltext/6476b927a25e543829dfebb1/Continually-Updating-Generative-Retrieval-on-Dynamic-Corpora.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19) *Soyoung Yoon et al.* Arxiv 2023. 
+
+### Continual Learning for Dense Retrieval
+
+* [L2R: Lifelong Learning for First-stage Retrieval with Backward-Compatible Representations](https://dl.acm.org/doi/abs/10.1145/3583780.3614947) *Yinqiong Cai et al.* CIKM 2023. (**L$^2$R**)
 
 ### Query Variations
 
