@@ -5,9 +5,9 @@
   <br>
 </p>
 
-# Awesome Robustness, Adversarial Attacks and Defenses for Information Retrieval
+# Awesome Robustness in Information Retrieval
 
-> A curated list of awesome papers related to robustness, adversarial attacks and defenses for information retrieval(IR). If I missed any papers, feel free to open a PR to include them! And any feedback and contributions are welcome! 
+> A curated list of awesome papers related to robustness, adversarial attacks & defenses, and out-of-distribution data for information retrieval(IR). If I missed any papers, feel free to open a PR to include them! Any feedback and contributions are welcome! 
 
 We thank all the great contributors very much.
 
