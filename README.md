@@ -42,7 +42,7 @@ We thank all the great contributors very much.
 - [Web Spam Taxonomy.](http://ilpubs.stanford.edu:8090/771/1/2005-9.pdf) *Zoltan Gyongyi  et.al.* AIRWeb 2005.(**Web Spamming**)
 - [International Workshop on Adversarial Information Retrieval on the Web.](http://www.ra.ethz.ch/cdstore/www2008/www2008.org/papers/pdf/p1267-castilloA.pdf)  AIRWeb 2005-2009.
 - [Adversarial web search.](https://www.nowpublishers.com/article/DownloadSummary/INR-021) *Castillo, Carlos, and Brian D. Davison* FnTIR 2011.
-- [MAWSEO: Adversarial Wiki Search Poisoning for Illicit Online Promotion.](https://arxiv.org/pdf/2304.11300.pdf) *Zilong Lin et.al.* S&P 2024. (***Adversarial Revisions***)
+- [MAWSEO: Adversarial Wiki Search Poisoning for Illicit Online Promotion.](https://arxiv.org/pdf/2304.11300.pdf) *Zilong Lin et.al.* S&P 2024. (**Adversarial Revisions**)
 
 ### White-hat SEO
 
@@ -60,6 +60,10 @@ We thank all the great contributors very much.
 - [Towards Imperceptible Document Manipulations against Neural Ranking Models.](https://arxiv.org/pdf/2305.01860.pdf) *Xuanang Chen et.al.* ACL 2023 findings.(**Black-box, Prompt**)
 - [Black-box Adversarial Attacks against Dense Retrieval Models: A Multi-view Contrastive Learning Method](https://dl.acm.org/doi/pdf/10.1145/3583780.3614793) *Yu-An Liu et.al.* CIKM 2023.(**Black-box, Dense Retrieval Attack**)
 - [Boosting Big Brother: Attacking Search Engines with Encodings.](https://arxiv.org/pdf/2304.14031.pdf) *Nicholas Boucher et.al.* RAID 2023.(**Encoding attack**)
+- [Backdoor Attacks on Dense Passage Retrievers for Disseminating Misinformation.](https://arxiv.org/pdf/2402.13532.pdf) *Quanyu Long et.al.* Arxiv 2024.(**Backdoor attack**)
+- [Poisoning Retrieval Corpora by Injecting Adversarial Passages.](https://arxiv.org/pdf/2402.13532.pdf) *Zexuan Zhong et.al.* EMNLP 2023.(**Dense Retrieval attack**)
+- [Multi-granular Adversarial Attacks against Black-box Neural Ranking Models.](https://arxiv.org/pdf/2404.01574.pdf) *Yu-An Liu et.al.* SIGIR 2024.(**Multi-granular attack**)
+- [Analyzing Adversarial Attacks on Sequence-to-Sequence Relevance Models.](https://arxiv.org/pdf/2403.07654.pdf) *Andrew Parry et.al.* ECIR 2024.(**Attacking T5**)
 
 ## Defense
 
