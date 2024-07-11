@@ -67,7 +67,7 @@ We thank all the great contributors very much.
 
 ## Defense
 
-### Adversarial Training (improving effectiveness)
+### Adversarial Training
 
 - [IRGAN: A Minimax Game for Unifying Generative and Discriminative Information Retrieval Models](https://arxiv.org/pdf/1705.10513) *Wang, Jun, et al.* SIGIR 2017.(**IRGAN**)
 - [Adversarial Sampling and Training for Semi-Supervised Information Retrieval](https://arxiv.org/pdf/1811.04155) *Park, Dae Hoon, Yi Chang* WWW 2019.(**AdvIR**)
@@ -75,8 +75,9 @@ We thank all the great contributors very much.
 - [Towards Robust Ranker for Text Retrieval](https://arxiv.org/pdf/2206.08063.pdf) *Yucheng, Zhou, et al.* Arxiv 2022.(**R2ANKER**)
 - [Dealing with textual noise for robust and effective BERT re-ranking](https://www.sciencedirect.com/science/article/pii/S0306457322002369) *Chen, Xuanang, et al.* IPM 2023.
 - [A Study on FGSM Adversarial Training for Neural Retrieval](https://arxiv.org/pdf/2301.10576) *Lupart, Simon, Stéphane Clinchant* ECIR 2023.
+- [Perturbation-Invariant Adversarial Training for Neural Ranking Models: Improving the Effectiveness-Robustness Trade-Off](https://ojs.aaai.org/index.php/AAAI/article/view/28730/29409) *Yu-An Liu et.al.* AAAI 2024.(**Perturbation-invariance theory**)
 
-### Certified Robustness
+### Certified Defense
 
 - [Certified Robustness to Word Substitution Ranking Attack for Neural Ranking Models](https://arxiv.org/pdf/2209.06691.pdf) *Chen Wu et.al.* CIKM 2022
 
@@ -109,15 +110,16 @@ We thank all the great contributors very much.
 * [Questions are all you need to train a dense passage retriever](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00564/116466) *Devendra Singh Sachan et al.* TACL. (**ART**)
 * [Beir: A heterogenous benchmark for zero-shot evaluation of information retrieval models](https://arxiv.org/abs/2104.08663) *Nandan Thakur et al.* NeurIPS 2021. (**BEIR**)
 * [GPL: Generative pseudo labeling for unsupervised domain adaptation of dense retrieval](https://arxiv.org/abs/2112.07577) *Kexin Wang et al.* NAACL 2022. (**GPL**)
-* [Coco-dr: Combating distribution shifts in zero-shot dense retrieval with contrastive and distributionally robust learning ](https://arxiv.org/abs/2210.15212) Arxiv 2022. (**Coco-dr**)
+* * [Coco-dr: Combating distribution shifts in zero-shot dense retrieval with contrastive and distributionally robust learning ](https://arxiv.org/abs/2210.15212) Arxiv 2022. (**Coco-dr**)
+
 
 ### Domain Modeling
 
+* [Coco-dr: Combating distribution shifts in zero-shot dense retrieval with contrastive and distributionally robust learning ](https://arxiv.org/abs/2210.15212) *Yu et al.* Arxiv 2022. (**Coco-dr**)
 * [Improving Retrieval in Theme-specific Applications using a Corpus Topical Taxonomy](https://dl.acm.org/doi/abs/10.1145/3589334.3645512) *SeongKu Kang et al.* Arxiv 2024.(**ToTER**)
 * [Learning list-level domain-invariant representations for ranking](https://proceedings.neurips.cc/paper_files/paper/2023/hash/cc473bb3ec4176a5e640c3a6b5fb5239-Abstract-Conference.html) *Ruicheng Xian et al.* NeurIPS 2023.
 * [Zero-shot dense retrieval with momentum adversarial domain invariant representations](https://arxiv.org/abs/2110.07581) *Ji Xin et al.* ACL 2022. (**MoDIR**)
 * [BERM: Training the balanced and extractable representation for matching to improve generalization ability of dense retrieval](https://arxiv.org/abs/2305.11052) *Shicheng Xu et al.* ACL 2023. (**BERM**)
-* [Coco-dr: Combating distribution shifts in zero-shot dense retrieval with contrastive and distributionally robust learning ](https://arxiv.org/abs/2210.15212) Arxiv 2022. (**Coco-dr**)
 * [Disentangled modeling of domain and relevance for adaptable dense retrieval](https://arxiv.org/abs/2208.05753) *Jingtao Zhan et al.* (**DDR**)
 
 ### Architectural Modifications
